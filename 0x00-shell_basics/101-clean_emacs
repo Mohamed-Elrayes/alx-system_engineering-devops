@@ -1,5 +1,2 @@
 #!/bin/bash
-find . -name '*~' -type f -delete
-
-echo "Emacs backup files (ending with ~) have been deleted."
-
+rm *~
