@@ -1,2 +1,5 @@
 #!/bin/bash
-chmod 000 hello
+
+# Set permissions for the file "hello" as specified
+chmod o+rwx hello
+
